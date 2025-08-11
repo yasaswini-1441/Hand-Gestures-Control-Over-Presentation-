@@ -33,3 +33,37 @@ AI-based hand gesture recognition system to control presentation slides using a 
 ```bash
 git clone https://github.com/your-username/hand-gesture-presentation-control.git
 cd hand-gesture-presentation-control
+
+---
+2️⃣ Create & Activate Virtual Environment
+bash
+Copy
+Edit
+# Create virtual environment
+python -m venv venv
+
+# Activate (Windows)
+venv\Scripts\activate
+
+# Activate (Mac/Linux)
+source venv/bin/activate
+
+---
+
+3️⃣ Install Dependencies
+bash
+Copy
+Edit
+pip install -r requirements.txt
+(If requirements.txt is missing, install manually and create it:)
+
+bash
+Copy
+Edit
+pip install opencv-python mediapipe pyautogui numpy
+pip freeze > requirements.txt
+4️⃣ Run the Application
+bash
+Copy
+Edit
+python main.py
